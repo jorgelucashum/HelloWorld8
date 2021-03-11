@@ -15,8 +15,8 @@ namespace HelloWorld8
         // GetType: retorna o tipo do objeto
         static void Main(string[] args)
         {
-            Produto p1;
-            p1 = new Produto();
+            Produto p1; // 'p1' = objeto
+            p1 = new Produto(); // 'p1' foi instanciado servindo como objeto para utilizar os atributos e métodos da classe 'Produto'
 
             Console.WriteLine("Digite o nome do produto: ");
             p1.Nome = Console.ReadLine();
